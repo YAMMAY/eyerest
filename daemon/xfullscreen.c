@@ -105,5 +105,7 @@ gboolean xfullscreen_has_fullscreen()
         }
     }
 
-    return FALSE;
+	return TRUE;
+	//disenable detect fullscreen 
+	//return FALSE;
 }
